@@ -1,4 +1,4 @@
-package hCVipSat;
+package hCVip;
 
 import it.uniroma1.di.tmancini.teaching.ai.SATCodec.SATModelDecoder;
 import utils.GraphInfo;
@@ -7,11 +7,10 @@ import java.io.IOException;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-public class HCVipSatDecoder {
+public class HCVipDecoder {
 
     private static List<String[]> argsPartition(String[] args) {
         if (args.length < 2)

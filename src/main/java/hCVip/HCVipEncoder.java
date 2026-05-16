@@ -1,4 +1,4 @@
-package hCVipSat;
+package hCVip;
 
 import it.uniroma1.di.tmancini.teaching.ai.SATCodec.IntRange;
 import it.uniroma1.di.tmancini.teaching.ai.SATCodec.SATEncoder;
@@ -10,7 +10,7 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.List;
 
-public class HCVipSatEncoder {
+public class HCVipEncoder {
 
     public static void main(String[] args) throws IOException {
         CmdLineOptions cmd = new CmdLineOptions("HC-Vip Encoder", "16/05/26",
